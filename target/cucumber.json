@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-15T13:07:30.986Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5991500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.LeadModule.leadcreation.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To check lead created are not",
+        "description": "",
+        "id": "feature-to-test--lead-creation;to-check-lead-created-are-not",
+        "after": [
+          {
+            "result": {
+              "duration": 934214600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.LeadModule.leadcreation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24443055400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is avalable",
+            "match": {
+              "location": "com.LeadModule.leadcreation.browser_is_avalable()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9245189200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "giving valid user login credentials",
+            "match": {
+              "location": "com.LeadModule.leadcreation.giving_valid_user_login_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7787264800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicking leadmodule",
+            "match": {
+              "location": "com.LeadModule.leadcreation.user_clicking_leadmodule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6859499400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user created lead with valid Data",
+            "match": {
+              "location": "com.LeadModule.leadcreation.user_created_lead_with_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1008500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigated to leads details page",
+            "match": {
+              "location": "com.LeadModule.leadcreation.user_navigated_to_leads_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to Test  Lead creation",
+    "description": "",
+    "id": "feature-to-test--lead-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/crmFeaature/Lead.feature",
+    "tags": []
+  }
+]

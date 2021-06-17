@@ -1,0 +1,9 @@
+com\OmistusCrm\generic\FileLib.class
+com\OmistusCrm\generic\IAutoConsts.class
+com\OmistusCrm\generic\WebDriverCommonLib.class
+com\OmistusPages\DisplayingCustomViewDetailsPage.class
+com\OmistusPages\createPotentialPage.class
+com\OmistusPages\CreateCampaignPage.class
+com\OmistusPages\LoginPage.class
+com\OmistusCrm\generic\MyListeners.class
+com\OmistusPages\HomePage.class
